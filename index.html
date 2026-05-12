@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Librería</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <h1> Librería</h1>
+</header>
+
+<main>
+
+  <section class="form-section">
+
+  <div class="buscador-container">
+
+    <img
+      src="https://media1.tenor.com/m/dLt367PBlAIAAAAC/yoongi-cute-yoongi-gummy-smile.gif"
+      alt="lechugita"
+      class="perfil-img"
+    >
+
+    <input
+      type="text"
+      id="titulo"
+      placeholder="Buscar o agregar libro..."
+    >
+
+  </div>
+
+  <div>
+    <button id="agregar">Agregar</button>
+    <button id="buscar">Buscar</button>
+  </div>
+
+  <p id="mensaje"></p>
+
+</section>
+
+  <section>
+    <h3>Mis libros</h3>
+    <ul id="lista"></ul>
+  </section>
+
+  <section>
+    <h3>Resultados</h3>
+    <ul id="resultados"></ul>
+  </section>
+
+</main>
+
+<script src="js/storage.js"></script>
+<script src="js/api.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
